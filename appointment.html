@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | HealthCare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>HealthCare</h1> 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <a href="appointment.html" class="nav-button">Book Appointment</a>
+</header>
+
+<section class="appointment section">
+    <div class="appointment-info">
+        
+        <h2>Request Your Appointment</h2>
+        <p>
+            Complete the form with your contact details and preferred
+            appointment date.
+        </p>
+
+        <div class="contact-detail">
+            <span>📞</span>
+            <div>
+                <strong>Phone</strong>
+                <p>+91 91******11</p>
+            </div>
+        </div>
+
+        <div class="contact-detail">
+            <span>✉️</span>
+            <div>
+                <strong>Email</strong>
+                <p>arhu@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <form class="appointment-form" >
+        <h3>Appointment Details</h3>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your full name" required><br>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required><br>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone"
+               placeholder="Enter your phone number" required><br>
+
+        <label for="doctor">Choose a Doctor</label>
+        <select id="doctor" name="doctor" required>
+            <option value="">Select a doctor</option>
+            <option>Dr. Alex Morgan</option>
+            <option>Dr. Sarah Wilson</option>
+            <option>Dr. Emily Davis</option><br><br>
+        </select><br>
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="message">Additional Message (Optional)</label>
+        <input type="text" id="message" name="message"
+               placeholder="Enter a short message"><br>
+
+        <button type="submit" class="btn primary">
+            Submit Request
+        </button>
+
+        <p class="form-note">
+            Demo only. Do not enter private medical information.
+            This form does not create a real appointment.
+        </p>
+    </form>
+</section>
+
+<footer class="footer">
+    
+    <p>Supporting healthier choices, every day.</p>
+    
+</footer>
+
+</body>
+</html>

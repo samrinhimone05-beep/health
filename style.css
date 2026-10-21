@@ -1,0 +1,107 @@
+.appointment-form textarea {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 25px;
+    margin-bottom: 20px;
+
+    
+    color: black;
+    background: white;
+
+    border: 1px solid #d6eae4;
+    border-radius: 12px;
+    
+
+    box-shadow: 0 4px 12px rgba(8, 127, 112, 0.05);
+    transition: border-color 3s, 
+    box-shadow: 3s;
+    
+}
+
+.appointment-form textarea:focus {
+    border-color: #08a88a solid 2px;
+    box-shadow: 2px 2px 2px rgba(8, 168, 138, 0.12);
+}
+
+
+.doctor-card a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+
+    color: #087f70;
+    background: #e8f8f3;
+    border: 1px solid #c8eee3;
+    border-radius: 25px;  
+    text-decoration: none;
+
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.doctor-card a:hover {
+    color:mediumslateblue;
+    background: #087f70;
+    transform: translateY(-3px);
+}
+
+
+.appointment-form {
+    border: 1px solid #e0f1ec;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(8, 127, 112, 0.09);
+    transition: box-shadow 0.3s;
+}
+
+.appointment-form:hover {
+    box-shadow: 0 18px 42px rgba(8, 127, 112, 0.14);
+}
+
+
+.appointment-form h3 {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.appointment-form h3::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-top: 8px;
+    background: #08a88a;
+    border-radius: 5px;
+}
+.appointment-form button {
+    border: none;
+    border-radius: 10px;
+    background: #087f70;
+    box-shadow: 0 5px 15px rgba(8, 127, 112, 0.16);
+    transition: background 0.3s, transform 0.3s;
+}
+
+.appointment-form button:hover {
+    background: #055f54;
+}
+
+
+.doctor-card {
+    overflow: hidden;
+    border: 1px solid #e1f0eb;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(20, 70, 65, 0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.doctor-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(8, 127, 112, 0.13);
+}
+
+.doctor-card img {
+    transition: transform 0.4s;
+}
+
+.doctor-card:hover img {
+    transform: scale(1.03);
+}
